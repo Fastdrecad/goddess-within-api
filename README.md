@@ -1,57 +1,37 @@
-# 🚀 Getting started with Strapi
+# Goddess Within - Women's Clothing E-Commerce App
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+<p>
+  This repository contains the backend codebase for  <b>Goddess Within</b> an E-Commerce application built with React on the front end and Strapi as the backend. The backend is responsible for managing product data, user authentication, and other essential functionalities that power the E-Commerce experience.
+</p>
 
-### `develop`
+## Features
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+- **Product Management**: Easily add, update, and delete products with dynamic attributes such as price, description, and images.
+- **User Authentication**: Secure user authentication and authorization system to ensure a personalized shopping experience.
+- **Orders and Checkout**: Manage user orders, process payments, and handle the checkout process seamlessly.
+- **Categories and Filtering**: Organize products into categories and enable users to filter products based on their preferences.
+- **Customization**: Highly customizable backend architecture using Strapi's flexible content types and plugins.
+
+## Tech Stack
+
+- **Strapi**: A powerful open-source headless CMS that provides a customizable API for managing content.
+- **Node.js**: The backend is built using Node.js, ensuring scalability and efficiency.
+- **MySQL**: Store and retrieve data efficiently with a robust database system.
+
+## Setup
+
+If you want to play around with Goddess Within app, feel free to clone repo. To start, please enter the following commands on your terminal:
 
 ```
+git clone https://github.com/Fastdrecad/goddess-within-api.git
+cd goddess-within-api
+npm install
 npm run develop
-# or
-yarn develop
 ```
 
-### `start`
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+## Connect with Goddess Within
 
-```
-npm run start
-# or
-yarn start
-```
+- [Visit Goddess Within](#)
 
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+Join Goddess Within and stay ahead in the world of women's fashion! 🛍️✨
